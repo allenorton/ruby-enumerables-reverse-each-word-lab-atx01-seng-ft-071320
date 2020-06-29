@@ -5,6 +5,6 @@ def reverse_each_word(sentence)
     nuSentence2 << x.reverse + " "
   end
   revSentence = nuSentence2.join
-  revSentence.chomp
+  revSentence.chop
 end
 
