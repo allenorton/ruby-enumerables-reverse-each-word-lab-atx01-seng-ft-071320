@@ -4,6 +4,7 @@ def reverse_each_word(sentence)
   nuSentence.each do |x|
     nuSentence2 << x.reverse + " "
   end
+  nuSentence2.pop
   nuSentence2.join
 end
 
