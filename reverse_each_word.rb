@@ -5,6 +5,5 @@ def reverse_each_word(sentence)
     nuSentence2 << x.reverse + " "
   end
   nuSentence2.join
-  nuSentence2.delete_suffix(" ")
 end
 
