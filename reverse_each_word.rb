@@ -6,6 +6,5 @@ def reverse_each_word(sentence)
   end
   revSentence = nuSentence2.join
   revSentence.chop
-  p revSentence
 end
 
