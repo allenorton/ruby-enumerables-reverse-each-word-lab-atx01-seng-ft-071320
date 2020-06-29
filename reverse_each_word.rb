@@ -1,7 +1,8 @@
 def reverse_each_word(sentence)
   nuSentence = sentence.split
   nuSentence.each do |x|
-    x.reverse
+    nuSentence2 << x.reverse
   end
+  nuSentence2 
 end
 
